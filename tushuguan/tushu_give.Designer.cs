@@ -34,7 +34,7 @@
             this.lab_giv_bno = new System.Windows.Forms.Label();
             this.txt_giv_bno = new System.Windows.Forms.TextBox();
             this.txt_giv_sno = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lab_giv_date
@@ -96,19 +96,19 @@
             this.txt_giv_sno.Size = new System.Drawing.Size(412, 38);
             this.txt_giv_sno.TabIndex = 7;
             // 
-            // dateTimePicker1
+            // dateTimePicker2
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(254, 226);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(412, 25);
-            this.dateTimePicker1.TabIndex = 9;
+            this.dateTimePicker2.Location = new System.Drawing.Point(254, 226);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(412, 25);
+            this.dateTimePicker2.TabIndex = 9;
             // 
             // tushu_give
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 565);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.txt_giv_sno);
             this.Controls.Add(this.txt_giv_bno);
             this.Controls.Add(this.lab_giv_bno);
@@ -131,6 +131,6 @@
         private System.Windows.Forms.Label lab_giv_bno;
         private System.Windows.Forms.TextBox txt_giv_bno;
         private System.Windows.Forms.TextBox txt_giv_sno;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }

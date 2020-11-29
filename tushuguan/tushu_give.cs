@@ -25,7 +25,7 @@ namespace tushuguan
 
         private void btn_giv_ok_Click(object sender, EventArgs e)
         {
-            string giv_date = dateTimePicker1_Value;
+            //string giv_date = dateTimePicker1_Value;
             string giv_sno = txt_giv_sno.Text;
             string giv_bno = txt_giv_bno.Text;
             SqlConnection cnn = new SqlConnection();
@@ -35,7 +35,7 @@ namespace tushuguan
             cnn.Open();
             var cmd = new SqlCommand("select * from librarylog", cnn);
 
-            cmd.CommandText = "update library.borbooks set 还书日期 = "+ giv_date + "where 学号 =" + giv_sno + "and 书号 =" + giv_bno +"'";
+            cmd.CommandText = "update library.borbooks set 还书日期 = '"+ dateTimePicker2.Value.ToString() + "'where 学号 ='" + giv_sno + "'and 书号 ='" + giv_bno +"'";
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("归还成功");
         }
