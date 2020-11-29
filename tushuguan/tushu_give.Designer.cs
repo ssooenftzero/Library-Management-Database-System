@@ -41,7 +41,7 @@
             // 
             this.lab_giv_date.AutoSize = true;
             this.lab_giv_date.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_giv_date.Location = new System.Drawing.Point(90, 226);
+            this.lab_giv_date.Location = new System.Drawing.Point(97, 286);
             this.lab_giv_date.Name = "lab_giv_date";
             this.lab_giv_date.Size = new System.Drawing.Size(152, 28);
             this.lab_giv_date.TabIndex = 0;
@@ -50,7 +50,7 @@
             // btn_giv_ok
             // 
             this.btn_giv_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_giv_ok.Location = new System.Drawing.Point(516, 325);
+            this.btn_giv_ok.Location = new System.Drawing.Point(523, 385);
             this.btn_giv_ok.Name = "btn_giv_ok";
             this.btn_giv_ok.Size = new System.Drawing.Size(150, 58);
             this.btn_giv_ok.TabIndex = 2;
@@ -62,7 +62,7 @@
             // 
             this.lab_giv_sno.AutoSize = true;
             this.lab_giv_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_giv_sno.Location = new System.Drawing.Point(90, 63);
+            this.lab_giv_sno.Location = new System.Drawing.Point(97, 123);
             this.lab_giv_sno.Name = "lab_giv_sno";
             this.lab_giv_sno.Size = new System.Drawing.Size(152, 28);
             this.lab_giv_sno.TabIndex = 3;
@@ -72,7 +72,7 @@
             // 
             this.lab_giv_bno.AutoSize = true;
             this.lab_giv_bno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_giv_bno.Location = new System.Drawing.Point(90, 135);
+            this.lab_giv_bno.Location = new System.Drawing.Point(97, 195);
             this.lab_giv_bno.Name = "lab_giv_bno";
             this.lab_giv_bno.Size = new System.Drawing.Size(152, 28);
             this.lab_giv_bno.TabIndex = 4;
@@ -81,7 +81,7 @@
             // txt_giv_bno
             // 
             this.txt_giv_bno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_giv_bno.Location = new System.Drawing.Point(254, 135);
+            this.txt_giv_bno.Location = new System.Drawing.Point(261, 195);
             this.txt_giv_bno.Name = "txt_giv_bno";
             this.txt_giv_bno.Size = new System.Drawing.Size(412, 38);
             this.txt_giv_bno.TabIndex = 8;
@@ -91,14 +91,14 @@
             // 
             this.txt_giv_sno.Cursor = System.Windows.Forms.Cursors.Default;
             this.txt_giv_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_giv_sno.Location = new System.Drawing.Point(254, 60);
+            this.txt_giv_sno.Location = new System.Drawing.Point(261, 120);
             this.txt_giv_sno.Name = "txt_giv_sno";
             this.txt_giv_sno.Size = new System.Drawing.Size(412, 38);
             this.txt_giv_sno.TabIndex = 7;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(254, 226);
+            this.dateTimePicker2.Location = new System.Drawing.Point(261, 286);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(412, 25);
             this.dateTimePicker2.TabIndex = 9;
