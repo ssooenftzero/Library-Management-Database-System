@@ -23,7 +23,13 @@ namespace tushuguan
             string apl_sno = txb_apl_sno.Text;
             string apl_class = txb_apl_class.Text;
             string apl_sname = txb_apl_sname.Text;
-            string apl_sex = txb_apl_sex.Text;
+            //string apl_sex = txb_apl_sex.Text;
+            string apl_sex = "";
+            bool isChecked = radioButton1.Checked;
+            if (isChecked)
+                apl_sex = radioButton1.Text;
+            else
+                apl_sex = radioButton2.Text;
             string apl_phone = txb_apl_phone.Text;
 
             SqlConnection cnn = new SqlConnection();
@@ -39,6 +45,16 @@ namespace tushuguan
         }
 
         private void txb_apl_sno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
         }

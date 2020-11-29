@@ -13,6 +13,7 @@ namespace tushuguan
 {
     public partial class tushu_search : Form
     {
+
         public tushu_search()
         {
             InitializeComponent();
@@ -35,14 +36,6 @@ namespace tushuguan
             SqlDataReader redslt = null;
             redslt = cmd.ExecuteReader();
             MessageBox.Show(redslt.ToString());
-            //while (redslt.Read()) {
-            //    this.txtBno.Text = redslt.GetString(0);
-            //    this.txtType.Text = redslt.GetString(2);
-            //    this.txtNum.Text = redslt.GetString(3);
-            //    this.txtLoc.Text = redslt.GetString(4);
-            //    break;
-            //}
-            //int i = cmd.ExecuteNonQuery();
             MessageBox.Show("查询成功");
         }
 
