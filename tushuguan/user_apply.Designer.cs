@@ -38,8 +38,8 @@
             this.txb_apl_sname = new System.Windows.Forms.TextBox();
             this.txb_apl_phone = new System.Windows.Forms.TextBox();
             this.btn_apl_ok = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.Male = new System.Windows.Forms.RadioButton();
+            this.Female = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // lab_apl_sno
@@ -141,37 +141,37 @@
             this.btn_apl_ok.UseVisualStyleBackColor = true;
             this.btn_apl_ok.Click += new System.EventHandler(this.btn_apl_ok_Click);
             // 
-            // radioButton1
+            // Male
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(296, 276);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(43, 19);
-            this.radioButton1.TabIndex = 11;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "男";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.Male.AutoSize = true;
+            this.Male.Location = new System.Drawing.Point(296, 276);
+            this.Male.Name = "Male";
+            this.Male.Size = new System.Drawing.Size(43, 19);
+            this.Male.TabIndex = 11;
+            this.Male.TabStop = true;
+            this.Male.Text = "男";
+            this.Male.UseVisualStyleBackColor = true;
+            this.Male.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // radioButton2
+            // Female
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(572, 276);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(43, 19);
-            this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "女";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.Female.AutoSize = true;
+            this.Female.Location = new System.Drawing.Point(572, 276);
+            this.Female.Name = "Female";
+            this.Female.Size = new System.Drawing.Size(43, 19);
+            this.Female.TabIndex = 12;
+            this.Female.TabStop = true;
+            this.Female.Text = "女";
+            this.Female.UseVisualStyleBackColor = true;
+            this.Female.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // user_apply
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 565);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.Female);
+            this.Controls.Add(this.Male);
             this.Controls.Add(this.btn_apl_ok);
             this.Controls.Add(this.txb_apl_phone);
             this.Controls.Add(this.txb_apl_sname);
@@ -203,7 +203,7 @@
         private System.Windows.Forms.TextBox txb_apl_sname;
         private System.Windows.Forms.TextBox txb_apl_phone;
         private System.Windows.Forms.Button btn_apl_ok;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton Male;
+        private System.Windows.Forms.RadioButton Female;
     }
 }

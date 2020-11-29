@@ -25,11 +25,11 @@ namespace tushuguan
             string apl_sname = txb_apl_sname.Text;
             //string apl_sex = txb_apl_sex.Text;
             string apl_sex = "";
-            bool isChecked = radioButton1.Checked;
+            bool isChecked = Male.Checked;
             if (isChecked)
-                apl_sex = radioButton1.Text;
+                apl_sex = Male.Text;
             else
-                apl_sex = radioButton2.Text;
+                apl_sex = Female.Text;
             string apl_phone = txb_apl_phone.Text;
 
             SqlConnection cnn = new SqlConnection();
