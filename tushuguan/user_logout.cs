@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace tushuguan
 {
-    public partial class user_delete : Form
+    public partial class user_logout : Form
     {
-        public user_delete()
+        public user_logout()
         {
             InitializeComponent();
         }

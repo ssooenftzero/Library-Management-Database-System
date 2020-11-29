@@ -1,6 +1,6 @@
 ﻿namespace tushuguan
 {
-    partial class user_delete
+    partial class user_logout
     {
         /// <summary>
         /// Required designer variable.

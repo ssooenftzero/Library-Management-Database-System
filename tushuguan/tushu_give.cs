@@ -25,18 +25,23 @@ namespace tushuguan
 
         private void btn_gv_ok_Click(object sender, EventArgs e)
         {
-            string gv_sno = txb_gv_sno.Text;
-            string gv_bno = txb_gv_bno.Text;
-            string gv_dateh = txb_gv_dateh.Text;
-            SqlConnection cnn = new SqlConnection();
-            string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
-            cnn.ConnectionString = strCnn;
-            cnn.Open();
-            var cmd = cnn.CreateCommand();
+            //string gv_sno = txb_gv_sno.Text;
+            //string gv_bno = txb_gv_bno.Text;
+            //string gv_dateh = txb_gv_dateh.Text;
+            //SqlConnection cnn = new SqlConnection();
+            //string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
+            //cnn.ConnectionString = strCnn;
+            //cnn.Open();
+            //var cmd = cnn.CreateCommand();
 
-            cmd.CommandText = "insert into library.borbooks(学号,书号,借书日期)values('" + ld_sno + "','" + ld_bno + "','" + ld_datel + "')";
-            int i = cmd.ExecuteNonQuery();
-            MessageBox.Show("增加成功");
+            //cmd.CommandText = "insert into library.borbooks(学号,书号,借书日期)values('" + ld_sno + "','" + ld_bno + "','" + ld_datel + "')";
+            //int i = cmd.ExecuteNonQuery();
+            //MessageBox.Show("增加成功");
+        }
+
+        private void tushu_give_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
