@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dateTime.cs" />
     <Compile Include="library_log.cs">
       <SubType>Form</SubType>
     </Compile>

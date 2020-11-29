@@ -35,7 +35,7 @@ namespace tushuguan
             cnn.ConnectionString = strCnn;
             cnn.Open();
             var cmd = new SqlCommand("select * from librarylog", cnn);
-            cmd.CommandText = "insert into library.books(书号,书名,种类,数量,存放位置)values(" + ts_num + "," + ts_name + "," + ts_kind + "," + ts_amount + "," + ts_place + ")";
+            cmd.CommandText = "insert into library.books(书号,书名,种类,数量,存放位置)values('" + ts_num + "','" + ts_name + "','" + ts_kind + "'," + ts_amount + ",'" + ts_place + "')";
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("增加成功");
         }

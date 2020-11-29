@@ -50,11 +50,11 @@
             // btn_giv_ok
             // 
             this.btn_giv_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_giv_ok.Location = new System.Drawing.Point(546, 329);
+            this.btn_giv_ok.Location = new System.Drawing.Point(516, 325);
             this.btn_giv_ok.Name = "btn_giv_ok";
-            this.btn_giv_ok.Size = new System.Drawing.Size(120, 58);
+            this.btn_giv_ok.Size = new System.Drawing.Size(150, 58);
             this.btn_giv_ok.TabIndex = 2;
-            this.btn_giv_ok.Text = "更新";
+            this.btn_giv_ok.Text = "确定归还";
             this.btn_giv_ok.UseVisualStyleBackColor = true;
             this.btn_giv_ok.Click += new System.EventHandler(this.btn_giv_ok_Click);
             // 
@@ -85,6 +85,7 @@
             this.txt_giv_bno.Name = "txt_giv_bno";
             this.txt_giv_bno.Size = new System.Drawing.Size(412, 38);
             this.txt_giv_bno.TabIndex = 8;
+            this.txt_giv_bno.TextChanged += new System.EventHandler(this.txt_giv_bno_TextChanged);
             // 
             // txt_giv_sno
             // 
@@ -97,11 +98,10 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(254, 229);
+            this.dateTimePicker1.Location = new System.Drawing.Point(254, 226);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(412, 25);
-            this.dateTimePicker1.TabIndex = 10;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dateTimePicker1.TabIndex = 9;
             // 
             // tushu_give
             // 
