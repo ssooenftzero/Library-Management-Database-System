@@ -137,6 +137,7 @@
             this.txb_place.Name = "txb_place";
             this.txb_place.Size = new System.Drawing.Size(298, 38);
             this.txb_place.TabIndex = 9;
+            this.txb_place.TextChanged += new System.EventHandler(this.txb_place_TextChanged);
             // 
             // btn_ok
             // 

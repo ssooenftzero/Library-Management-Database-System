@@ -43,5 +43,10 @@ namespace tushuguan
         private void txb_num_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void txb_place_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

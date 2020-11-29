@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.lab_giv_date = new System.Windows.Forms.Label();
-            this.txt_giv_date = new System.Windows.Forms.TextBox();
             this.btn_giv_ok = new System.Windows.Forms.Button();
             this.lab_giv_sno = new System.Windows.Forms.Label();
             this.lab_giv_bno = new System.Windows.Forms.Label();
             this.txt_giv_bno = new System.Windows.Forms.TextBox();
             this.txt_giv_sno = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lab_giv_date
@@ -46,14 +46,6 @@
             this.lab_giv_date.Size = new System.Drawing.Size(152, 28);
             this.lab_giv_date.TabIndex = 0;
             this.lab_giv_date.Text = "还书日期：";
-            // 
-            // txt_giv_date
-            // 
-            this.txt_giv_date.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_giv_date.Location = new System.Drawing.Point(254, 221);
-            this.txt_giv_date.Name = "txt_giv_date";
-            this.txt_giv_date.Size = new System.Drawing.Size(412, 38);
-            this.txt_giv_date.TabIndex = 9;
             // 
             // btn_giv_ok
             // 
@@ -103,17 +95,25 @@
             this.txt_giv_sno.Size = new System.Drawing.Size(412, 38);
             this.txt_giv_sno.TabIndex = 7;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(254, 229);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(412, 25);
+            this.dateTimePicker1.TabIndex = 10;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
             // tushu_give
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 565);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.txt_giv_sno);
             this.Controls.Add(this.txt_giv_bno);
             this.Controls.Add(this.lab_giv_bno);
             this.Controls.Add(this.lab_giv_sno);
             this.Controls.Add(this.btn_giv_ok);
-            this.Controls.Add(this.txt_giv_date);
             this.Controls.Add(this.lab_giv_date);
             this.Name = "tushu_give";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -126,11 +126,11 @@
         #endregion
 
         private System.Windows.Forms.Label lab_giv_date;
-        private System.Windows.Forms.TextBox txt_giv_date;
         private System.Windows.Forms.Button btn_giv_ok;
         private System.Windows.Forms.Label lab_giv_sno;
         private System.Windows.Forms.Label lab_giv_bno;
         private System.Windows.Forms.TextBox txt_giv_bno;
         private System.Windows.Forms.TextBox txt_giv_sno;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
