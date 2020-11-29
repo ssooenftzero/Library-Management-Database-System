@@ -18,30 +18,21 @@ namespace tushuguan
             InitializeComponent();
         }
 
-        private void txb_gv_bno_TextChanged(object sender, EventArgs e)
+        private void btn_giv_ok_Click(object sender, EventArgs e)
         {
+            string giv_date = txt_giv_date.Text;
+            string giv_sno = txt_giv_sno.Text;
+            string giv_bno = txt_giv_bno.Text;
+            SqlConnection cnn = new SqlConnection();
 
-        }
+            string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
+            cnn.ConnectionString = strCnn;
+            cnn.Open();
+            var cmd = new SqlCommand("select * from librarylog", cnn);
 
-        private void btn_gv_ok_Click(object sender, EventArgs e)
-        {
-            //string gv_sno = txb_gv_sno.Text;
-            //string gv_bno = txb_gv_bno.Text;
-            //string gv_dateh = txb_gv_dateh.Text;
-            //SqlConnection cnn = new SqlConnection();
-            //string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
-            //cnn.ConnectionString = strCnn;
-            //cnn.Open();
-            //var cmd = cnn.CreateCommand();
-
-            //cmd.CommandText = "insert into library.borbooks(学号,书号,借书日期)values('" + ld_sno + "','" + ld_bno + "','" + ld_datel + "')";
-            //int i = cmd.ExecuteNonQuery();
-            //MessageBox.Show("增加成功");
-        }
-
-        private void tushu_give_Load(object sender, EventArgs e)
-        {
-
+            cmd.CommandText = "update library.borbooks set 还书日期 =" + giv_date + "where 学号 = " + giv_sno + "and 书号 = " + giv_bno;
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show("更新成功");
         }
     }
 }

@@ -96,11 +96,11 @@
     <Compile Include="user_apply.Designer.cs">
       <DependentUpon>user_apply.cs</DependentUpon>
     </Compile>
-    <Compile Include="user_logout.cs">
+    <Compile Include="user_delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="user_logout.Designer.cs">
-      <DependentUpon>user_logout.cs</DependentUpon>
+    <Compile Include="user_delete.Designer.cs">
+      <DependentUpon>user_delete.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="library_log.resx">
       <DependentUpon>library_log.cs</DependentUpon>
@@ -135,8 +135,8 @@
     <EmbeddedResource Include="user_apply.resx">
       <DependentUpon>user_apply.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="user_logout.resx">
-      <DependentUpon>user_logout.cs</DependentUpon>
+    <EmbeddedResource Include="user_delete.resx">
+      <DependentUpon>user_delete.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

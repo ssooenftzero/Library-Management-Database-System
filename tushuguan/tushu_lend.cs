@@ -27,8 +27,8 @@ namespace tushuguan
             string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
             cnn.ConnectionString = strCnn;
             cnn.Open();
-            var cmd = cnn.CreateCommand();
-           
+            var cmd = new SqlCommand("select * from librarylog", cnn);
+            
             cmd.CommandText = "insert into library.borbooks(学号,书号,借书日期)values('" + ld_sno + "','" + ld_bno + "','" + ld_datel + "')";
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("增加成功");

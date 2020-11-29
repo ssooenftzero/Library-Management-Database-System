@@ -18,17 +18,37 @@ namespace tushuguan
             InitializeComponent();
         }
 
-        private void btn_sc_ok_Click(object sender, EventArgs e)
+        private void btn_sea_ok_Click(object sender, EventArgs e)
         {
+            string sea_bname = this.txt_sea_bname.Text;
             
             SqlConnection cnn = new SqlConnection();
-            string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
+
+            string strCnn = "Data Source=127.0.0.1;Initial Catalog=library1;Integrated Security=True";
             cnn.ConnectionString = strCnn;
             cnn.Open();
-            var cmd = new SqlCommand("select * from librarylog", cnn);
-            //cmd.CommandText = "insert into library.books(书号,书名,种类,数量,存放位置)values(" + ts_num + "," + ts_name + "," + ts_kind + "," + ts_amount + "," + ts_place + ")";
-            int i = cmd.ExecuteNonQuery();
-            MessageBox.Show("增加成功");
+            var cmd =cnn.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+
+            cmd.CommandText = "select" + " *" + " from" + " library.books" + " where" + " 书名 =" + sea_bname;
+
+            SqlDataReader redslt = null;
+            redslt = cmd.ExecuteReader();
+            MessageBox.Show(redslt.ToString());
+            //while (redslt.Read()) {
+            //    this.txtBno.Text = redslt.GetString(0);
+            //    this.txtType.Text = redslt.GetString(2);
+            //    this.txtNum.Text = redslt.GetString(3);
+            //    this.txtLoc.Text = redslt.GetString(4);
+            //    break;
+            //}
+            //int i = cmd.ExecuteNonQuery();
+            MessageBox.Show("查询成功");
+        }
+
+        private void txtBno_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

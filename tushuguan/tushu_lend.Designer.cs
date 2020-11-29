@@ -81,7 +81,7 @@
             this.txb_ld_datel.Location = new System.Drawing.Point(295, 264);
             this.txb_ld_datel.Name = "txb_ld_datel";
             this.txb_ld_datel.Size = new System.Drawing.Size(391, 38);
-            this.txb_ld_datel.TabIndex = 4;
+            this.txb_ld_datel.TabIndex = 5;
             // 
             // txb_ld_bno
             // 
@@ -89,7 +89,7 @@
             this.txb_ld_bno.Location = new System.Drawing.Point(295, 185);
             this.txb_ld_bno.Name = "txb_ld_bno";
             this.txb_ld_bno.Size = new System.Drawing.Size(391, 38);
-            this.txb_ld_bno.TabIndex = 5;
+            this.txb_ld_bno.TabIndex = 4;
             // 
             // btn_ld_ok
             // 

@@ -28,105 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lab_gv_sno = new System.Windows.Forms.Label();
-            this.lab_gv_bno = new System.Windows.Forms.Label();
-            this.lab_gv_dateh = new System.Windows.Forms.Label();
-            this.txb_gv_sno = new System.Windows.Forms.TextBox();
-            this.txb_gv_bno = new System.Windows.Forms.TextBox();
-            this.txb_gv_dateh = new System.Windows.Forms.TextBox();
-            this.btn_gv_ok = new System.Windows.Forms.Button();
+            this.lab_giv_date = new System.Windows.Forms.Label();
+            this.txt_giv_date = new System.Windows.Forms.TextBox();
+            this.btn_giv_ok = new System.Windows.Forms.Button();
+            this.lab_giv_sno = new System.Windows.Forms.Label();
+            this.lab_giv_bno = new System.Windows.Forms.Label();
+            this.txt_giv_bno = new System.Windows.Forms.TextBox();
+            this.txt_giv_sno = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lab_gv_sno
+            // lab_giv_date
             // 
-            this.lab_gv_sno.AutoSize = true;
-            this.lab_gv_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_gv_sno.Location = new System.Drawing.Point(96, 65);
-            this.lab_gv_sno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lab_gv_sno.Name = "lab_gv_sno";
-            this.lab_gv_sno.Size = new System.Drawing.Size(76, 22);
-            this.lab_gv_sno.TabIndex = 0;
-            this.lab_gv_sno.Text = "学号：";
+            this.lab_giv_date.AutoSize = true;
+            this.lab_giv_date.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_giv_date.Location = new System.Drawing.Point(90, 226);
+            this.lab_giv_date.Name = "lab_giv_date";
+            this.lab_giv_date.Size = new System.Drawing.Size(152, 28);
+            this.lab_giv_date.TabIndex = 0;
+            this.lab_giv_date.Text = "还书日期：";
             // 
-            // lab_gv_bno
+            // txt_giv_date
             // 
-            this.lab_gv_bno.AutoSize = true;
-            this.lab_gv_bno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_gv_bno.Location = new System.Drawing.Point(96, 126);
-            this.lab_gv_bno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lab_gv_bno.Name = "lab_gv_bno";
-            this.lab_gv_bno.Size = new System.Drawing.Size(76, 22);
-            this.lab_gv_bno.TabIndex = 1;
-            this.lab_gv_bno.Text = "书号：";
+            this.txt_giv_date.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txt_giv_date.Location = new System.Drawing.Point(254, 221);
+            this.txt_giv_date.Name = "txt_giv_date";
+            this.txt_giv_date.Size = new System.Drawing.Size(412, 38);
+            this.txt_giv_date.TabIndex = 9;
             // 
-            // lab_gv_dateh
+            // btn_giv_ok
             // 
-            this.lab_gv_dateh.AutoSize = true;
-            this.lab_gv_dateh.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_gv_dateh.Location = new System.Drawing.Point(96, 190);
-            this.lab_gv_dateh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lab_gv_dateh.Name = "lab_gv_dateh";
-            this.lab_gv_dateh.Size = new System.Drawing.Size(120, 22);
-            this.lab_gv_dateh.TabIndex = 2;
-            this.lab_gv_dateh.Text = "还书日期：";
+            this.btn_giv_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_giv_ok.Location = new System.Drawing.Point(546, 329);
+            this.btn_giv_ok.Name = "btn_giv_ok";
+            this.btn_giv_ok.Size = new System.Drawing.Size(120, 58);
+            this.btn_giv_ok.TabIndex = 2;
+            this.btn_giv_ok.Text = "更新";
+            this.btn_giv_ok.UseVisualStyleBackColor = true;
+            this.btn_giv_ok.Click += new System.EventHandler(this.btn_giv_ok_Click);
             // 
-            // txb_gv_sno
+            // lab_giv_sno
             // 
-            this.txb_gv_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_gv_sno.Location = new System.Drawing.Point(223, 62);
-            this.txb_gv_sno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txb_gv_sno.Name = "txb_gv_sno";
-            this.txb_gv_sno.Size = new System.Drawing.Size(246, 32);
-            this.txb_gv_sno.TabIndex = 3;
+            this.lab_giv_sno.AutoSize = true;
+            this.lab_giv_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_giv_sno.Location = new System.Drawing.Point(90, 63);
+            this.lab_giv_sno.Name = "lab_giv_sno";
+            this.lab_giv_sno.Size = new System.Drawing.Size(152, 28);
+            this.lab_giv_sno.TabIndex = 3;
+            this.lab_giv_sno.Text = "学    号：";
             // 
-            // txb_gv_bno
+            // lab_giv_bno
             // 
-            this.txb_gv_bno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_gv_bno.Location = new System.Drawing.Point(223, 123);
-            this.txb_gv_bno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txb_gv_bno.Name = "txb_gv_bno";
-            this.txb_gv_bno.Size = new System.Drawing.Size(246, 32);
-            this.txb_gv_bno.TabIndex = 4;
-            this.txb_gv_bno.TextChanged += new System.EventHandler(this.txb_gv_bno_TextChanged);
+            this.lab_giv_bno.AutoSize = true;
+            this.lab_giv_bno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_giv_bno.Location = new System.Drawing.Point(90, 135);
+            this.lab_giv_bno.Name = "lab_giv_bno";
+            this.lab_giv_bno.Size = new System.Drawing.Size(152, 28);
+            this.lab_giv_bno.TabIndex = 4;
+            this.lab_giv_bno.Text = "书    号：";
             // 
-            // txb_gv_dateh
+            // txt_giv_bno
             // 
-            this.txb_gv_dateh.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_gv_dateh.Location = new System.Drawing.Point(223, 187);
-            this.txb_gv_dateh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txb_gv_dateh.Name = "txb_gv_dateh";
-            this.txb_gv_dateh.Size = new System.Drawing.Size(246, 32);
-            this.txb_gv_dateh.TabIndex = 5;
+            this.txt_giv_bno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txt_giv_bno.Location = new System.Drawing.Point(254, 135);
+            this.txt_giv_bno.Name = "txt_giv_bno";
+            this.txt_giv_bno.Size = new System.Drawing.Size(412, 38);
+            this.txt_giv_bno.TabIndex = 8;
             // 
-            // btn_gv_ok
+            // txt_giv_sno
             // 
-            this.btn_gv_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_gv_ok.Location = new System.Drawing.Point(397, 262);
-            this.btn_gv_ok.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btn_gv_ok.Name = "btn_gv_ok";
-            this.btn_gv_ok.Size = new System.Drawing.Size(110, 34);
-            this.btn_gv_ok.TabIndex = 6;
-            this.btn_gv_ok.Text = "确定";
-            this.btn_gv_ok.UseVisualStyleBackColor = true;
-            this.btn_gv_ok.Click += new System.EventHandler(this.btn_gv_ok_Click);
+            this.txt_giv_sno.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txt_giv_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txt_giv_sno.Location = new System.Drawing.Point(254, 60);
+            this.txt_giv_sno.Name = "txt_giv_sno";
+            this.txt_giv_sno.Size = new System.Drawing.Size(412, 38);
+            this.txt_giv_sno.TabIndex = 7;
             // 
             // tushu_give
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 452);
-            this.Controls.Add(this.btn_gv_ok);
-            this.Controls.Add(this.txb_gv_dateh);
-            this.Controls.Add(this.txb_gv_bno);
-            this.Controls.Add(this.txb_gv_sno);
-            this.Controls.Add(this.lab_gv_dateh);
-            this.Controls.Add(this.lab_gv_bno);
-            this.Controls.Add(this.lab_gv_sno);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ClientSize = new System.Drawing.Size(801, 565);
+            this.Controls.Add(this.txt_giv_sno);
+            this.Controls.Add(this.txt_giv_bno);
+            this.Controls.Add(this.lab_giv_bno);
+            this.Controls.Add(this.lab_giv_sno);
+            this.Controls.Add(this.btn_giv_ok);
+            this.Controls.Add(this.txt_giv_date);
+            this.Controls.Add(this.lab_giv_date);
             this.Name = "tushu_give";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图书归还";
-            this.Load += new System.EventHandler(this.tushu_give_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,12 +125,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lab_gv_sno;
-        private System.Windows.Forms.Label lab_gv_bno;
-        private System.Windows.Forms.Label lab_gv_dateh;
-        private System.Windows.Forms.TextBox txb_gv_sno;
-        private System.Windows.Forms.TextBox txb_gv_bno;
-        private System.Windows.Forms.TextBox txb_gv_dateh;
-        private System.Windows.Forms.Button btn_gv_ok;
+        private System.Windows.Forms.Label lab_giv_date;
+        private System.Windows.Forms.TextBox txt_giv_date;
+        private System.Windows.Forms.Button btn_giv_ok;
+        private System.Windows.Forms.Label lab_giv_sno;
+        private System.Windows.Forms.Label lab_giv_bno;
+        private System.Windows.Forms.TextBox txt_giv_bno;
+        private System.Windows.Forms.TextBox txt_giv_sno;
     }
 }
