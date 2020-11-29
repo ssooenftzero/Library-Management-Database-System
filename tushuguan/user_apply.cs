@@ -37,5 +37,10 @@ namespace tushuguan
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("注册成功");
         }
+
+        private void txb_apl_sno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

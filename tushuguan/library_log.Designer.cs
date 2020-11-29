@@ -43,7 +43,7 @@
             this.sno.Name = "sno";
             this.sno.Size = new System.Drawing.Size(87, 25);
             this.sno.TabIndex = 0;
-            this.sno.Text = "学号：";
+            this.sno.Text = "账号：";
             // 
             // label1
             // 
@@ -53,7 +53,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "姓名：";
+            this.label1.Text = "密码：";
             // 
             // txt_sno
             // 

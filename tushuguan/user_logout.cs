@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace tushuguan
 {
-    public partial class user_delete : Form
+    public partial class user_logout : Form
     {
-        public user_delete()
+        public user_logout()
         {
             InitializeComponent();
+        }
+
+        private void user_logout_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
         }
     }
 }

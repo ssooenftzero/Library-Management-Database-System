@@ -39,5 +39,9 @@ namespace tushuguan
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("增加成功");
         }
+
+        private void txb_num_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

@@ -66,3 +66,21 @@ E:\2020-2021大三（上）\数据库系统概述 智烈慧\图书馆管理系�
 E:\2020-2021大三（上）\数据库系统概述 智烈慧\图书馆管理系统设计期末作业\图书馆\VS\tushuguan\obj\Debug\tushuguan.user_apply.resources
 E:\2020-2021大三（上）\数据库系统概述 智烈慧\图书馆管理系统设计期末作业\图书馆\VS\tushuguan\obj\Debug\tushuguan.user_delete.resources
 E:\2020-2021大三（上）\数据库系统概述 智烈慧\图书馆管理系统设计期末作业\图书馆\VS\tushuguan\obj\Debug\tushuguan.csproj.GenerateResource.Cache
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\bin\Debug\tushuguan.exe.config
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\bin\Debug\tushuguan.exe
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\bin\Debug\tushuguan.pdb
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.csprojAssemblyReference.cache
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.denglu.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.mainopen.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.Properties.Resources.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.tushu_add.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.tushu_give.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.tushu_lend.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.tushu_search.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.user_alter.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.user_apply.resources
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.csproj.GenerateResource.cache
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.csproj.CoreCompileInputs.cache
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.exe
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.pdb
+C:\Users\TSingSea\Documents\GitHub\Library-Management-Database-System\tushuguan\obj\Debug\tushuguan.user_logout.resources
