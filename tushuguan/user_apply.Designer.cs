@@ -66,7 +66,7 @@
             // 
             this.lab_apl_sname.AutoSize = true;
             this.lab_apl_sname.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_apl_sname.Location = new System.Drawing.Point(137, 208);
+            this.lab_apl_sname.Location = new System.Drawing.Point(137, 217);
             this.lab_apl_sname.Name = "lab_apl_sname";
             this.lab_apl_sname.Size = new System.Drawing.Size(152, 28);
             this.lab_apl_sname.TabIndex = 2;
@@ -111,7 +111,7 @@
             // txb_apl_sname
             // 
             this.txb_apl_sname.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_apl_sname.Location = new System.Drawing.Point(296, 203);
+            this.txb_apl_sname.Location = new System.Drawing.Point(296, 212);
             this.txb_apl_sname.Name = "txb_apl_sname";
             this.txb_apl_sname.Size = new System.Drawing.Size(318, 38);
             this.txb_apl_sname.TabIndex = 7;
@@ -120,18 +120,19 @@
             // 
             this.txb_apl_phone.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txb_apl_phone.Location = new System.Drawing.Point(296, 352);
+            this.txb_apl_phone.MaxLength = 11;
             this.txb_apl_phone.Name = "txb_apl_phone";
             this.txb_apl_phone.Size = new System.Drawing.Size(318, 38);
             this.txb_apl_phone.TabIndex = 9;
             // 
             // btn_apl_ok
             // 
-            this.btn_apl_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_apl_ok.Location = new System.Drawing.Point(639, 437);
+            this.btn_apl_ok.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_apl_ok.Location = new System.Drawing.Point(142, 433);
             this.btn_apl_ok.Name = "btn_apl_ok";
-            this.btn_apl_ok.Size = new System.Drawing.Size(90, 48);
+            this.btn_apl_ok.Size = new System.Drawing.Size(472, 44);
             this.btn_apl_ok.TabIndex = 10;
-            this.btn_apl_ok.Text = "注册";
+            this.btn_apl_ok.Text = "注 册";
             this.btn_apl_ok.UseVisualStyleBackColor = true;
             this.btn_apl_ok.Click += new System.EventHandler(this.btn_apl_ok_Click);
             // 
@@ -139,7 +140,7 @@
             // 
             this.rbt_apl_woman.AutoSize = true;
             this.rbt_apl_woman.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.rbt_apl_woman.Location = new System.Drawing.Point(335, 285);
+            this.rbt_apl_woman.Location = new System.Drawing.Point(397, 285);
             this.rbt_apl_woman.Name = "rbt_apl_woman";
             this.rbt_apl_woman.Size = new System.Drawing.Size(61, 32);
             this.rbt_apl_woman.TabIndex = 11;
@@ -151,7 +152,7 @@
             // 
             this.rbt_apl_man.AutoSize = true;
             this.rbt_apl_man.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.rbt_apl_man.Location = new System.Drawing.Point(455, 285);
+            this.rbt_apl_man.Location = new System.Drawing.Point(296, 285);
             this.rbt_apl_man.Name = "rbt_apl_man";
             this.rbt_apl_man.Size = new System.Drawing.Size(61, 32);
             this.rbt_apl_man.TabIndex = 12;
@@ -163,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 565);
+            this.ClientSize = new System.Drawing.Size(783, 565);
             this.Controls.Add(this.rbt_apl_man);
             this.Controls.Add(this.rbt_apl_woman);
             this.Controls.Add(this.btn_apl_ok);

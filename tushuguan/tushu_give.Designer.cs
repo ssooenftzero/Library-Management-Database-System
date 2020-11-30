@@ -49,11 +49,11 @@
             // 
             // btn_giv_ok
             // 
-            this.btn_giv_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_giv_ok.Location = new System.Drawing.Point(520, 379);
+            this.btn_giv_ok.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_giv_ok.Location = new System.Drawing.Point(109, 388);
             this.btn_giv_ok.Name = "btn_giv_ok";
-            this.btn_giv_ok.Size = new System.Drawing.Size(160, 58);
-            this.btn_giv_ok.TabIndex = 2;
+            this.btn_giv_ok.Size = new System.Drawing.Size(571, 49);
+            this.btn_giv_ok.TabIndex = 4;
             this.btn_giv_ok.Text = "确认还书";
             this.btn_giv_ok.UseVisualStyleBackColor = true;
             this.btn_giv_ok.Click += new System.EventHandler(this.btn_giv_ok_Click);
@@ -84,7 +84,7 @@
             this.txt_giv_bno.Location = new System.Drawing.Point(268, 186);
             this.txt_giv_bno.Name = "txt_giv_bno";
             this.txt_giv_bno.Size = new System.Drawing.Size(412, 38);
-            this.txt_giv_bno.TabIndex = 8;
+            this.txt_giv_bno.TabIndex = 2;
             // 
             // txt_giv_sno
             // 
@@ -93,7 +93,7 @@
             this.txt_giv_sno.Location = new System.Drawing.Point(268, 111);
             this.txt_giv_sno.Name = "txt_giv_sno";
             this.txt_giv_sno.Size = new System.Drawing.Size(412, 38);
-            this.txt_giv_sno.TabIndex = 7;
+            this.txt_giv_sno.TabIndex = 1;
             // 
             // date_give
             // 
@@ -102,7 +102,7 @@
             this.date_give.Location = new System.Drawing.Point(268, 270);
             this.date_give.Name = "date_give";
             this.date_give.Size = new System.Drawing.Size(412, 38);
-            this.date_give.TabIndex = 9;
+            this.date_give.TabIndex = 3;
             // 
             // tushu_give
             // 

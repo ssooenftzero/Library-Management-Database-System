@@ -79,7 +79,7 @@
             this.tsb_add.Image = ((System.Drawing.Image)(resources.GetObject("tsb_add.Image")));
             this.tsb_add.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_add.Name = "tsb_add";
-            this.tsb_add.Size = new System.Drawing.Size(24, 24);
+            this.tsb_add.Size = new System.Drawing.Size(29, 24);
             this.tsb_add.Text = "图书信息添加";
             // 
             // tsl_add
@@ -95,7 +95,7 @@
             this.tsb_lend.Image = ((System.Drawing.Image)(resources.GetObject("tsb_lend.Image")));
             this.tsb_lend.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_lend.Name = "tsb_lend";
-            this.tsb_lend.Size = new System.Drawing.Size(24, 24);
+            this.tsb_lend.Size = new System.Drawing.Size(29, 24);
             this.tsb_lend.Text = "图书借阅";
             // 
             // tsl_lend
@@ -111,7 +111,7 @@
             this.tsb_give.Image = ((System.Drawing.Image)(resources.GetObject("tsb_give.Image")));
             this.tsb_give.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_give.Name = "tsb_give";
-            this.tsb_give.Size = new System.Drawing.Size(24, 24);
+            this.tsb_give.Size = new System.Drawing.Size(29, 24);
             this.tsb_give.Text = "图书归还";
             // 
             // tsl_give
@@ -127,7 +127,7 @@
             this.tsb_search.Image = ((System.Drawing.Image)(resources.GetObject("tsb_search.Image")));
             this.tsb_search.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_search.Name = "tsb_search";
-            this.tsb_search.Size = new System.Drawing.Size(24, 24);
+            this.tsb_search.Size = new System.Drawing.Size(29, 24);
             this.tsb_search.Text = "图书查询";
             // 
             // tsl_search
@@ -143,7 +143,7 @@
             this.tsb_delete.Image = ((System.Drawing.Image)(resources.GetObject("tsb_delete.Image")));
             this.tsb_delete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_delete.Name = "tsb_delete";
-            this.tsb_delete.Size = new System.Drawing.Size(24, 24);
+            this.tsb_delete.Size = new System.Drawing.Size(29, 24);
             this.tsb_delete.Text = "用户注销";
             // 
             // toolStripLabel4
@@ -164,7 +164,7 @@
             this.tsb_apply.Image = ((System.Drawing.Image)(resources.GetObject("tsb_apply.Image")));
             this.tsb_apply.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_apply.Name = "tsb_apply";
-            this.tsb_apply.Size = new System.Drawing.Size(24, 24);
+            this.tsb_apply.Size = new System.Drawing.Size(29, 24);
             this.tsb_apply.Text = "用户注册";
             // 
             // tsl_apply
@@ -180,7 +180,7 @@
             this.tsb_alter.Image = ((System.Drawing.Image)(resources.GetObject("tsb_alter.Image")));
             this.tsb_alter.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsb_alter.Name = "tsb_alter";
-            this.tsb_alter.Size = new System.Drawing.Size(24, 24);
+            this.tsb_alter.Size = new System.Drawing.Size(29, 24);
             this.tsb_alter.Text = "用户信息修改";
             // 
             // tsl_alter

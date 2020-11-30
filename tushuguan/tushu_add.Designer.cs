@@ -100,7 +100,7 @@
             // txb_num
             // 
             this.txb_num.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_num.Location = new System.Drawing.Point(344, 80);
+            this.txb_num.Location = new System.Drawing.Point(318, 80);
             this.txb_num.Name = "txb_num";
             this.txb_num.Size = new System.Drawing.Size(298, 38);
             this.txb_num.TabIndex = 5;
@@ -108,7 +108,7 @@
             // txb_name
             // 
             this.txb_name.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_name.Location = new System.Drawing.Point(344, 148);
+            this.txb_name.Location = new System.Drawing.Point(318, 148);
             this.txb_name.Name = "txb_name";
             this.txb_name.Size = new System.Drawing.Size(298, 38);
             this.txb_name.TabIndex = 6;
@@ -116,7 +116,7 @@
             // txb_kind
             // 
             this.txb_kind.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_kind.Location = new System.Drawing.Point(344, 211);
+            this.txb_kind.Location = new System.Drawing.Point(318, 211);
             this.txb_kind.Name = "txb_kind";
             this.txb_kind.Size = new System.Drawing.Size(298, 38);
             this.txb_kind.TabIndex = 7;
@@ -124,7 +124,7 @@
             // txb_amount
             // 
             this.txb_amount.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_amount.Location = new System.Drawing.Point(344, 274);
+            this.txb_amount.Location = new System.Drawing.Point(318, 274);
             this.txb_amount.Name = "txb_amount";
             this.txb_amount.Size = new System.Drawing.Size(298, 38);
             this.txb_amount.TabIndex = 8;
@@ -132,20 +132,20 @@
             // txb_place
             // 
             this.txb_place.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_place.Location = new System.Drawing.Point(344, 337);
+            this.txb_place.Location = new System.Drawing.Point(318, 337);
             this.txb_place.Name = "txb_place";
             this.txb_place.Size = new System.Drawing.Size(298, 38);
             this.txb_place.TabIndex = 9;
             // 
             // btn_ok
             // 
-            this.btn_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_ok.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_ok.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_ok.Location = new System.Drawing.Point(555, 421);
+            this.btn_ok.Location = new System.Drawing.Point(156, 428);
             this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(139, 53);
+            this.btn_ok.Size = new System.Drawing.Size(460, 45);
             this.btn_ok.TabIndex = 10;
-            this.btn_ok.Text = "确定";
+            this.btn_ok.Text = "确 定";
             this.btn_ok.UseVisualStyleBackColor = true;
             this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
@@ -153,7 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 565);
+            this.ClientSize = new System.Drawing.Size(783, 565);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.txb_place);
             this.Controls.Add(this.txb_amount);

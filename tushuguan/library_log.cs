@@ -52,6 +52,45 @@ namespace tushuguan
                 MessageBox.Show("您所输入的信息错误，请重新输入");
             }
         }
+
+        private void txt_sno_Enter(object sender, EventArgs e)
+        {
+            if (txt_sno.Text == "请输入管理员账户")
+            {
+                txt_sno.Text = "";
+                txt_sno.ForeColor = Color.Black;
+            }
+        }
+
+        private void txt_sno_Leave(object sender, EventArgs e)
+        {
+            if (txt_sno.Text == "")
+            {
+                txt_sno.Text = "请输入管理员账户";
+                txt_sno.ForeColor = Color.Gray;
+
+            }
+        }
+
+        private void txt_sname_Enter(object sender, EventArgs e)
+        {
+            if (txt_sname.Text == "请输入管理员密码")
+            {
+                txt_sname.Text = "";
+                txt_sname.PasswordChar = '*';
+                txt_sname.ForeColor = Color.Black;
+            }
+        }
+
+        private void txt_sname_Leave(object sender, EventArgs e)
+        {
+            if (txt_sname.Text == "")
+            {
+                txt_sname.PasswordChar = '\0';
+                txt_sname.Text = "请输入管理员密码";
+                txt_sname.ForeColor = Color.Gray;
+
+            }
+        }
     }
 }
-

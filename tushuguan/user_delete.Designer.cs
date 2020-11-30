@@ -39,7 +39,7 @@
             // 
             this.lab_del_sno.AutoSize = true;
             this.lab_del_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_del_sno.Location = new System.Drawing.Point(113, 156);
+            this.lab_del_sno.Location = new System.Drawing.Point(95, 125);
             this.lab_del_sno.Name = "lab_del_sno";
             this.lab_del_sno.Size = new System.Drawing.Size(96, 28);
             this.lab_del_sno.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.lab_del_sname.AutoSize = true;
             this.lab_del_sname.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_del_sname.Location = new System.Drawing.Point(113, 220);
+            this.lab_del_sname.Location = new System.Drawing.Point(95, 196);
             this.lab_del_sname.Name = "lab_del_sname";
             this.lab_del_sname.Size = new System.Drawing.Size(96, 28);
             this.lab_del_sname.TabIndex = 1;
@@ -58,7 +58,7 @@
             // txt_del_sno
             // 
             this.txt_del_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_del_sno.Location = new System.Drawing.Point(202, 151);
+            this.txt_del_sno.Location = new System.Drawing.Point(197, 122);
             this.txt_del_sno.Name = "txt_del_sno";
             this.txt_del_sno.Size = new System.Drawing.Size(409, 38);
             this.txt_del_sno.TabIndex = 3;
@@ -67,7 +67,7 @@
             // txt_del_sname
             // 
             this.txt_del_sname.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt_del_sname.Location = new System.Drawing.Point(202, 215);
+            this.txt_del_sname.Location = new System.Drawing.Point(197, 193);
             this.txt_del_sname.Name = "txt_del_sname";
             this.txt_del_sname.Size = new System.Drawing.Size(409, 38);
             this.txt_del_sname.TabIndex = 4;
@@ -75,12 +75,12 @@
             // 
             // btn_del_ok
             // 
-            this.btn_del_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_del_ok.Location = new System.Drawing.Point(618, 325);
+            this.btn_del_ok.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_del_ok.Location = new System.Drawing.Point(100, 274);
             this.btn_del_ok.Name = "btn_del_ok";
-            this.btn_del_ok.Size = new System.Drawing.Size(82, 48);
+            this.btn_del_ok.Size = new System.Drawing.Size(506, 48);
             this.btn_del_ok.TabIndex = 6;
-            this.btn_del_ok.Text = "注销";
+            this.btn_del_ok.Text = "注 销";
             this.btn_del_ok.UseVisualStyleBackColor = true;
             this.btn_del_ok.Click += new System.EventHandler(this.btn_del_ok_Click);
             // 
@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 565);
+            this.ClientSize = new System.Drawing.Size(703, 459);
             this.Controls.Add(this.btn_del_ok);
             this.Controls.Add(this.txt_del_sname);
             this.Controls.Add(this.txt_del_sno);

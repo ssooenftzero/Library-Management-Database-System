@@ -48,7 +48,7 @@
             // 
             this.lab_alt_sno.AutoSize = true;
             this.lab_alt_sno.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_alt_sno.Location = new System.Drawing.Point(126, 75);
+            this.lab_alt_sno.Location = new System.Drawing.Point(126, 80);
             this.lab_alt_sno.Name = "lab_alt_sno";
             this.lab_alt_sno.Size = new System.Drawing.Size(152, 28);
             this.lab_alt_sno.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             this.lab_alt_class.AutoSize = true;
             this.lab_alt_class.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_alt_class.Location = new System.Drawing.Point(126, 137);
+            this.lab_alt_class.Location = new System.Drawing.Point(126, 142);
             this.lab_alt_class.Name = "lab_alt_class";
             this.lab_alt_class.Size = new System.Drawing.Size(152, 28);
             this.lab_alt_class.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             this.lab_alt_sname.AutoSize = true;
             this.lab_alt_sname.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_alt_sname.Location = new System.Drawing.Point(126, 206);
+            this.lab_alt_sname.Location = new System.Drawing.Point(126, 211);
             this.lab_alt_sname.Name = "lab_alt_sname";
             this.lab_alt_sname.Size = new System.Drawing.Size(152, 28);
             this.lab_alt_sname.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.lab_alt_sex.AutoSize = true;
             this.lab_alt_sex.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_alt_sex.Location = new System.Drawing.Point(126, 272);
+            this.lab_alt_sex.Location = new System.Drawing.Point(126, 278);
             this.lab_alt_sex.Name = "lab_alt_sex";
             this.lab_alt_sex.Size = new System.Drawing.Size(152, 28);
             this.lab_alt_sex.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             this.lab_alt_phone.AutoSize = true;
             this.lab_alt_phone.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_alt_phone.Location = new System.Drawing.Point(126, 346);
+            this.lab_alt_phone.Location = new System.Drawing.Point(126, 341);
             this.lab_alt_phone.Name = "lab_alt_phone";
             this.lab_alt_phone.Size = new System.Drawing.Size(152, 28);
             this.lab_alt_phone.TabIndex = 4;
@@ -123,18 +123,19 @@
             // 
             this.txt_alt_phone.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txt_alt_phone.Location = new System.Drawing.Point(290, 336);
+            this.txt_alt_phone.MaxLength = 11;
             this.txt_alt_phone.Name = "txt_alt_phone";
             this.txt_alt_phone.Size = new System.Drawing.Size(358, 38);
             this.txt_alt_phone.TabIndex = 9;
             // 
             // btn_alt_ok
             // 
-            this.btn_alt_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_alt_ok.Location = new System.Drawing.Point(595, 433);
+            this.btn_alt_ok.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_alt_ok.Location = new System.Drawing.Point(131, 418);
             this.btn_alt_ok.Name = "btn_alt_ok";
-            this.btn_alt_ok.Size = new System.Drawing.Size(98, 52);
+            this.btn_alt_ok.Size = new System.Drawing.Size(517, 43);
             this.btn_alt_ok.TabIndex = 10;
-            this.btn_alt_ok.Text = "修改";
+            this.btn_alt_ok.Text = "修 改";
             this.btn_alt_ok.UseVisualStyleBackColor = true;
             this.btn_alt_ok.Click += new System.EventHandler(this.btn_alt_ok_Click);
             // 
@@ -144,15 +145,16 @@
             this.panel1.Controls.Add(this.rbt_alt_man);
             this.panel1.Location = new System.Drawing.Point(290, 272);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(164, 41);
+            this.panel1.Size = new System.Drawing.Size(194, 41);
             this.panel1.TabIndex = 13;
             // 
             // rbt_alt_woman
             // 
             this.rbt_alt_woman.AutoSize = true;
-            this.rbt_alt_woman.Location = new System.Drawing.Point(94, 12);
+            this.rbt_alt_woman.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.rbt_alt_woman.Location = new System.Drawing.Point(108, 6);
             this.rbt_alt_woman.Name = "rbt_alt_woman";
-            this.rbt_alt_woman.Size = new System.Drawing.Size(43, 19);
+            this.rbt_alt_woman.Size = new System.Drawing.Size(61, 32);
             this.rbt_alt_woman.TabIndex = 14;
             this.rbt_alt_woman.TabStop = true;
             this.rbt_alt_woman.Text = "女";
@@ -161,9 +163,10 @@
             // rbt_alt_man
             // 
             this.rbt_alt_man.AutoSize = true;
-            this.rbt_alt_man.Location = new System.Drawing.Point(26, 12);
+            this.rbt_alt_man.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.rbt_alt_man.Location = new System.Drawing.Point(14, 6);
             this.rbt_alt_man.Name = "rbt_alt_man";
-            this.rbt_alt_man.Size = new System.Drawing.Size(43, 19);
+            this.rbt_alt_man.Size = new System.Drawing.Size(61, 32);
             this.rbt_alt_man.TabIndex = 13;
             this.rbt_alt_man.TabStop = true;
             this.rbt_alt_man.Text = "男";

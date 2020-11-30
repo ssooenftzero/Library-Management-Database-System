@@ -40,6 +40,7 @@
             this.view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.view.Location = new System.Drawing.Point(31, 112);
             this.view.Name = "view";
+            this.view.RowHeadersWidth = 51;
             this.view.RowTemplate.Height = 27;
             this.view.Size = new System.Drawing.Size(793, 307);
             this.view.TabIndex = 0;
@@ -77,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 482);
+            this.ClientSize = new System.Drawing.Size(857, 482);
             this.Controls.Add(this.btn_sea_ok);
             this.Controls.Add(this.txt_sea_bname);
             this.Controls.Add(this.lab_sea_bname);

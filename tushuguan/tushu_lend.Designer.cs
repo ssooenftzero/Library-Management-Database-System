@@ -85,12 +85,12 @@
             // 
             // btn_ld_ok
             // 
-            this.btn_ld_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_ld_ok.Location = new System.Drawing.Point(507, 377);
+            this.btn_ld_ok.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_ld_ok.Location = new System.Drawing.Point(135, 372);
             this.btn_ld_ok.Name = "btn_ld_ok";
-            this.btn_ld_ok.Size = new System.Drawing.Size(149, 54);
+            this.btn_ld_ok.Size = new System.Drawing.Size(551, 42);
             this.btn_ld_ok.TabIndex = 6;
-            this.btn_ld_ok.Text = "确定";
+            this.btn_ld_ok.Text = "确 定";
             this.btn_ld_ok.UseVisualStyleBackColor = true;
             this.btn_ld_ok.Click += new System.EventHandler(this.btn_ld_ok_Click);
             // 
@@ -106,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 565);
+            this.ClientSize = new System.Drawing.Size(801, 525);
             this.Controls.Add(this.date_lend);
             this.Controls.Add(this.btn_ld_ok);
             this.Controls.Add(this.txb_ld_bno);
