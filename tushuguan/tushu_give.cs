@@ -13,11 +13,6 @@ namespace tushuguan
 {
     public partial class tushu_give : Form
     {
-        private object dateTime;
-        private object txtDriverId;
-        private object txt_giv_date;
-        private string dateTimePicker1_Value;
-
         public tushu_give()
         {
             InitializeComponent();
@@ -25,9 +20,10 @@ namespace tushuguan
 
         private void btn_giv_ok_Click(object sender, EventArgs e)
         {
-            //string giv_date = dateTimePicker1_Value;
             string giv_sno = txt_giv_sno.Text;
             string giv_bno = txt_giv_bno.Text;
+            //string giv_date = txt_giv_date.Text;
+            
             SqlConnection cnn = new SqlConnection();
 
             string strCnn = "Data Source=localhost;Initial Catalog=library1;Integrated Security=True";
@@ -35,15 +31,11 @@ namespace tushuguan
             cnn.Open();
             var cmd = new SqlCommand("select * from librarylog", cnn);
 
-            cmd.CommandText = "update library.borbooks set 还书日期 = '"+ dateTimePicker2.Value.ToString() + "'where 学号 ='" + giv_sno + "'and 书号 ='" + giv_bno +"'";
+            cmd.CommandText = "update library.borbooks set 还书日期 = '" + date_give.Value.ToString() + "'where 学号 ='" + giv_sno + "'and 书号 ='" + giv_bno + "'";
+
+            //cmd.CommandText = "update library.borbooks set 还书日期 = '2020.85.58' where (学号 = '170110') and (书号 = 'E005')";//可以成功
             int i = cmd.ExecuteNonQuery();
-            MessageBox.Show("归还成功");
-        }
-
-
-        private void txt_giv_bno_TextChanged(object sender, EventArgs e)
-        {
-
+            MessageBox.Show("还书成功！");
         }
     }
 }

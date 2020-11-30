@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace tushuguan
 {
-    public partial class user_logout : Form
+    public partial class user_delete : Form
     {
-        public user_logout()
+        public user_delete()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_del_ok_Click(object sender, EventArgs e)
         {
             string del_sno = this.txt_del_sno.Text;
             string del_sname = this.txt_del_sname.Text;
@@ -31,14 +31,17 @@ namespace tushuguan
             cmd.CommandText = "delete from library.borpeople where 学号 ='" + del_sno + "'and 姓名 ='" + del_sname + "'";
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("注销成功");
+
         }
 
-        private void txt_del_sname_TextChanged(object sender, EventArgs e)
+
+
+        private void txt_del_sno_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void txt_del_sno_TextChanged(object sender, EventArgs e)
+        private void txt_del_sname_TextChanged(object sender, EventArgs e)
         {
 
         }

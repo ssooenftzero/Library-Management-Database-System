@@ -34,7 +34,7 @@
             this.txb_ld_sno = new System.Windows.Forms.TextBox();
             this.txb_ld_bno = new System.Windows.Forms.TextBox();
             this.btn_ld_ok = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.date_lend = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lab_ld_sno
@@ -86,27 +86,28 @@
             // btn_ld_ok
             // 
             this.btn_ld_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_ld_ok.Location = new System.Drawing.Point(537, 378);
+            this.btn_ld_ok.Location = new System.Drawing.Point(507, 377);
             this.btn_ld_ok.Name = "btn_ld_ok";
             this.btn_ld_ok.Size = new System.Drawing.Size(149, 54);
             this.btn_ld_ok.TabIndex = 6;
-            this.btn_ld_ok.Text = "确定借阅";
+            this.btn_ld_ok.Text = "确定";
             this.btn_ld_ok.UseVisualStyleBackColor = true;
             this.btn_ld_ok.Click += new System.EventHandler(this.btn_ld_ok_Click);
             // 
-            // dateTimePicker1
+            // date_lend
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(295, 264);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(391, 25);
-            this.dateTimePicker1.TabIndex = 7;
+            this.date_lend.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.date_lend.Location = new System.Drawing.Point(293, 262);
+            this.date_lend.Name = "date_lend";
+            this.date_lend.Size = new System.Drawing.Size(392, 38);
+            this.date_lend.TabIndex = 7;
             // 
             // tushu_lend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 565);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.date_lend);
             this.Controls.Add(this.btn_ld_ok);
             this.Controls.Add(this.txb_ld_bno);
             this.Controls.Add(this.txb_ld_sno);
@@ -114,9 +115,9 @@
             this.Controls.Add(this.lab_ld_datel);
             this.Controls.Add(this.lab_ld_sno);
             this.Name = "tushu_lend";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图书借阅";
-            this.Load += new System.EventHandler(this.tushu_lend_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,6 +131,6 @@
         private System.Windows.Forms.TextBox txb_ld_sno;
         private System.Windows.Forms.TextBox txb_ld_bno;
         private System.Windows.Forms.Button btn_ld_ok;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker date_lend;
     }
 }

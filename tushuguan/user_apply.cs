@@ -25,11 +25,12 @@ namespace tushuguan
             string apl_sname = txb_apl_sname.Text;
             //string apl_sex = txb_apl_sex.Text;
             string apl_sex = "";
-            bool isChecked = Male.Checked;
+            bool isChecked = rbt_apl_woman.Checked;
             if (isChecked)
-                apl_sex = Male.Text;
+                apl_sex = rbt_apl_woman.Text;
             else
-                apl_sex = Female.Text;
+                apl_sex = rbt_apl_man.Text;
+
             string apl_phone = txb_apl_phone.Text;
 
             SqlConnection cnn = new SqlConnection();
@@ -42,20 +43,6 @@ namespace tushuguan
             cmd.CommandText = "insert into library.borpeople(学号,班级,姓名,性别,联系方式)values('" + apl_sno + "','" + apl_class + "','" + apl_sname + "','" + apl_sex + "','" + apl_phone + "')";
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show("注册成功");
-        }
-
-        private void txb_apl_sno_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
 
         }
     }

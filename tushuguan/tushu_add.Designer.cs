@@ -104,7 +104,6 @@
             this.txb_num.Name = "txb_num";
             this.txb_num.Size = new System.Drawing.Size(298, 38);
             this.txb_num.TabIndex = 5;
-            this.txb_num.TextChanged += new System.EventHandler(this.txb_num_TextChanged);
             // 
             // txb_name
             // 
@@ -137,13 +136,12 @@
             this.txb_place.Name = "txb_place";
             this.txb_place.Size = new System.Drawing.Size(298, 38);
             this.txb_place.TabIndex = 9;
-            this.txb_place.TextChanged += new System.EventHandler(this.txb_place_TextChanged);
             // 
             // btn_ok
             // 
             this.btn_ok.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_ok.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_ok.Location = new System.Drawing.Point(503, 431);
+            this.btn_ok.Location = new System.Drawing.Point(555, 421);
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.Size = new System.Drawing.Size(139, 53);
             this.btn_ok.TabIndex = 10;
@@ -169,6 +167,7 @@
             this.Controls.Add(this.lab_num);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Name = "tushu_add";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图书信息添加";
             this.ResumeLayout(false);

@@ -48,8 +48,8 @@ namespace tushuguan
 
         private void tsl_delete_Click(object sender, EventArgs e)
         {
-            user_logout us_logout = new user_logout();
-            us_logout.ShowDialog();
+            user_delete us_delete = new user_delete();
+            us_delete.ShowDialog();
         }
 
         private void tsl_apply_Click(object sender, EventArgs e)

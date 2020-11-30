@@ -39,17 +39,17 @@
             // 
             this.sno.AutoSize = true;
             this.sno.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.sno.Location = new System.Drawing.Point(53, 75);
+            this.sno.Location = new System.Drawing.Point(28, 72);
             this.sno.Name = "sno";
-            this.sno.Size = new System.Drawing.Size(87, 25);
+            this.sno.Size = new System.Drawing.Size(112, 25);
             this.sno.TabIndex = 0;
-            this.sno.Text = "账号：";
+            this.sno.Text = "用户名：";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(53, 137);
+            this.label1.Location = new System.Drawing.Point(28, 134);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 25);
             this.label1.TabIndex = 1;
@@ -93,6 +93,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sno);
             this.Name = "denglu";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登录界面";
             this.ResumeLayout(false);

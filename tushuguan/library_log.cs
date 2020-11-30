@@ -52,7 +52,6 @@ namespace tushuguan
                 MessageBox.Show("您所输入的信息错误，请重新输入");
             }
         }
-
     }
 }
 

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentData">
+      <HintPath>..\FluentData.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,7 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dateTime.cs" />
+    <Compile Include="books.cs" />
+    <Compile Include="DBUtils.cs" />
     <Compile Include="library_log.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +65,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tushu_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tushu_search.Designer.cs">
+      <DependentUpon>tushu_search.cs</DependentUpon>
+    </Compile>
     <Compile Include="tushu_add.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,12 +89,6 @@
     <Compile Include="tushu_lend.Designer.cs">
       <DependentUpon>tushu_lend.cs</DependentUpon>
     </Compile>
-    <Compile Include="tushu_search.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="tushu_search.Designer.cs">
-      <DependentUpon>tushu_search.cs</DependentUpon>
-    </Compile>
     <Compile Include="user_alter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,11 +101,11 @@
     <Compile Include="user_apply.Designer.cs">
       <DependentUpon>user_apply.cs</DependentUpon>
     </Compile>
-    <Compile Include="user_logout.cs">
+    <Compile Include="user_delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="user_logout.Designer.cs">
-      <DependentUpon>user_logout.cs</DependentUpon>
+    <Compile Include="user_delete.Designer.cs">
+      <DependentUpon>user_delete.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="library_log.resx">
       <DependentUpon>library_log.cs</DependentUpon>
@@ -118,6 +122,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="tushu_search.resx">
+      <DependentUpon>tushu_search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tushu_add.resx">
       <DependentUpon>tushu_add.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,17 +134,14 @@
     <EmbeddedResource Include="tushu_lend.resx">
       <DependentUpon>tushu_lend.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="tushu_search.resx">
-      <DependentUpon>tushu_search.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="user_alter.resx">
       <DependentUpon>user_alter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="user_apply.resx">
       <DependentUpon>user_apply.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="user_logout.resx">
-      <DependentUpon>user_logout.cs</DependentUpon>
+    <EmbeddedResource Include="user_delete.resx">
+      <DependentUpon>user_delete.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

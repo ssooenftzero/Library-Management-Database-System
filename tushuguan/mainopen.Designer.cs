@@ -201,6 +201,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "mainopen";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图书馆管理信息系统";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -19,34 +19,37 @@ namespace tushuguan
             InitializeComponent();
         }
 
+        private void Loadall()
+        {
+            List<books> books = DBUtils.QueryDB().Sql("select * from library.books").QueryMany<books>();
+            this.view.DataSource = books;
+        }
+
         private void btn_sea_ok_Click(object sender, EventArgs e)
         {
             string sea_bname = this.txt_sea_bname.Text;
-            
-            SqlConnection cnn = new SqlConnection();
-
-            string strCnn = "Data Source=127.0.0.1;Initial Catalog=library1;Integrated Security=True";
-            cnn.ConnectionString = strCnn;
-            cnn.Open();
-            var cmd =cnn.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-
-            cmd.CommandText = "select" + " *" + " from" + " library.books" + " where" + " 书名 =" + sea_bname;
-
-            SqlDataReader redslt = null;
-            redslt = cmd.ExecuteReader();
-            MessageBox.Show(redslt.ToString());
-            MessageBox.Show("查询成功");
+            int count = DBUtils.QueryDB()
+                    .Sql("select count(*) from library.books where 书名 = @booksno")
+                    .Parameter("booksno", sea_bname)
+                    .QuerySingle<int>();
+            List<books> books1 = DBUtils.QueryDB().Sql("select * from library.books where 书名 = @booksno")
+                .Parameter("booksno", sea_bname)
+                .QueryMany<books>();
+            if (count > 0)
+            {
+                view.DataSource = books1;
+                MessageBox.Show("查询成功");
+            }
+            else
+            {
+                MessageBox.Show("没有查到相关信息");
+            }          
         }
 
-        private void txtBno_TextChanged(object sender, EventArgs e)
+        private void tushu_search_Load(object sender, EventArgs e)
         {
-           
+            Loadall();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
