@@ -39,7 +39,12 @@ namespace tushuguan
             var cmd = cnn.CreateCommand();
             cmd.CommandText = "update library.borpeople set 班级 = '" + Pclass + "',姓名 ='" + name + "',性别 = '" + sex + "',联系方式 = '" + phone_num + "' where 学号 = '" + sno + "'" ;
             int i = cmd.ExecuteNonQuery();
-            MessageBox.Show("修改成功！");
+            bool a = Convert.ToBoolean(i);
+            if (a)
+            {
+                MessageBox.Show("修改成功！");
+            }
+            MessageBox.Show("修改失败！");
         }
 
         private void user_alter_Load(object sender, EventArgs e)

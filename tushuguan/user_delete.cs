@@ -30,8 +30,12 @@ namespace tushuguan
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "delete from library.borpeople where 学号 ='" + del_sno + "'and 姓名 ='" + del_sname + "'";
             int i = cmd.ExecuteNonQuery();
-            MessageBox.Show("注销成功");
-
+            bool d = Convert.ToBoolean(i);
+            if (d)
+            {
+                MessageBox.Show("注销成功");
+            }
+            MessageBox.Show("填写错误或该账号未注册！");
         }
 
 
