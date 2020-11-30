@@ -35,7 +35,12 @@ namespace tushuguan
 
             //cmd.CommandText = "update library.borbooks set 还书日期 = '2020.85.58' where (学号 = '170110') and (书号 = 'E005')";//可以成功
             int i = cmd.ExecuteNonQuery();
-            MessageBox.Show("还书成功！");
+            bool h = Convert.ToBoolean(i);
+            if(h)
+            {
+                MessageBox.Show("还书成功！");
+            }
+            MessageBox.Show("还书失败！");
         }
     }
 }
