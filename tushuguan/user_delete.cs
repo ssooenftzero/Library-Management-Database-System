@@ -35,6 +35,7 @@ namespace tushuguan
             {
                 MessageBox.Show("注销成功");
             }
+            else
             MessageBox.Show("填写错误或该账号未注册！");
         }
 
